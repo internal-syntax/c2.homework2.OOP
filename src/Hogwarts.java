@@ -73,7 +73,7 @@ public class Hogwarts {
         }
     }
 
-    public static void CompareStudentsG(String name1, String name2, Gryffindor[] gryffindors) {
+    public static void CompareStudents(String name1, String name2, Gryffindor[] gryffindors) {
         int sum1 = 0;
         int sum2 = 0;
         for (Gryffindor gryffindor : gryffindors) {
@@ -91,7 +91,7 @@ public class Hogwarts {
         }
     }
 
-    public static void CompareStudentsS(String name1, String name2, Slytherin[] slytherins) {
+    public static void CompareStudents(String name1, String name2, Slytherin[] slytherins) {
         int sum1 = 0;
         int sum2 = 0;
         for (Slytherin slytherin : slytherins) {
@@ -109,7 +109,7 @@ public class Hogwarts {
         }
     }
 
-    public static void CompareStudentsH(String name1, String name2, Hufflepuff[] hufflepuffs) {
+    public static void CompareStudents(String name1, String name2, Hufflepuff[] hufflepuffs) {
         int sum1 = 0;
         int sum2 = 0;
         for (Hufflepuff hufflepuff : hufflepuffs) {
@@ -127,7 +127,7 @@ public class Hogwarts {
         }
     }
 
-    public static void CompareStudentsR(String name1, String name2, Ravenclaw[] ravenclaws) {
+    public static void CompareStudents(String name1, String name2, Ravenclaw[] ravenclaws) {
         int sum1 = 0;
         int sum2 = 0;
         for (Ravenclaw ravenclaw : ravenclaws) {

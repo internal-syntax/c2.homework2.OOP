@@ -30,13 +30,13 @@ public class Main {
 
         Hogwarts.studentDescription("Чжоу Чанг", gryffindors, slytherins, hufflepuffs, ravenclaws);
         System.out.println();
-        Hogwarts.CompareStudentsG("Гарри Поттер", "Рон Уизли", gryffindors);
+        Hogwarts.CompareStudents("Гарри Поттер", "Рон Уизли", gryffindors);
         System.out.println();
-        Hogwarts.CompareStudentsS("Драко Малфой", "Грэхэм Монтегю", slytherins);
+        Hogwarts.CompareStudents("Драко Малфой", "Грэхэм Монтегю", slytherins);
         System.out.println();
-        Hogwarts.CompareStudentsH("Захария Смит", "Седрик Диггори", hufflepuffs);
+        Hogwarts.CompareStudents("Захария Смит", "Седрик Диггори", hufflepuffs);
         System.out.println();
-        Hogwarts.CompareStudentsR("Чжоу Чанг", "Маркус Белби", ravenclaws);
+        Hogwarts.CompareStudents("Чжоу Чанг", "Маркус Белби", ravenclaws);
         System.out.println();
         Hogwarts.CompareStudentsHogwarts("Гарри Поттер", "Драко Малфой", gryffindors, slytherins, hufflepuffs, ravenclaws);
     }
