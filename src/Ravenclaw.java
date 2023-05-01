@@ -44,6 +44,16 @@ public class Ravenclaw extends Hogwarts {
         this.creation = creation;
     }
 
+    public void compareStudents(Ravenclaw other) {
+        int sum1 = getMind() + getWisdom() + getWit() + getCreation();
+        int sum2 = other.getMind() + other.getWisdom() + other.getWit() + other.getCreation();
+        if (sum1 > sum2) {
+            System.out.println(getName() + " лучший Когтевранец, чем " + other.getName());
+        } else {
+            System.out.println(other.getName() + " лучший Когтевранец, чем " + getName());
+        }
+    }
+
     @Override
     public String toString() {
         return "Ravenclaw{" +
